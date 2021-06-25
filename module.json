@@ -1,0 +1,15 @@
+{
+    "name": "Agenda",
+    "alias": "agenda",
+    "description": "Module Agenda untuk E-Panel.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Agenda\\Providers\\AgendaServiceProvider"
+    ],
+    "aliases": {
+        "Agenda": "Modules\\Agenda\\Entities\\Agenda"
+    },
+    "files": [],
+    "requires": []
+}
